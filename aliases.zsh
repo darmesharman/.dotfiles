@@ -25,4 +25,4 @@ alias grst="git reset"
 
 alias gsa="git stash apply"
 alias gsl="git stash list"
-alias gss="git stash save"
+alias gss="git add -A && git stash save"
