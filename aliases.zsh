@@ -27,4 +27,5 @@ alias gsa="git stash apply"
 alias gsl="git stash list"
 alias gss="git add -A && git stash save"
 
+alias grm="git checkout master && git pull && git checkout - && git rebase master"
 alias grim="git rebase -i master"
